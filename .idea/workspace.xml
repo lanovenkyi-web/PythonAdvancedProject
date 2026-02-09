@@ -4,15 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="733c659c-64ca-467c-a632-f840df3f0858" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/PythonAdvancedProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/My_HW/HW_1/HW_1.1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/My_HW/HW_1/HW_1.2.py" afterDir="false" />
+    <list default="true" id="733c659c-64ca-467c-a632-f840df3f0858" name="Changes" comment="HomeWork_1">
+      <change afterPath="$PROJECT_DIR$/My_CW/Flask_1/CW_2_Flask.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_CW/SQLAlchemy_3/1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_CW/SQLAlchemy_3/first_connection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_HW/HW_2/HW_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/PythonAdvancedProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PythonAdvancedProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,12 +24,35 @@
       </list>
     </option>
   </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform)); sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo, NoAppException&#10;for module in [&quot;main.py&quot;, &quot;wsgi.py&quot;, &quot;app.py&quot;]:&#10;    try: locals().update(ScriptInfo(app_import_path=module, create_app=None).load_app().make_shell_context()); print(&quot;\nFlask App: %s&quot; % app.import_name); break&#10;    except NoAppException: pass">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform)); sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo, NoAppException&#10;for module in [&quot;main.py&quot;, &quot;wsgi.py&quot;, &quot;app.py&quot;]:&#10;    try: locals().update(ScriptInfo(app_import_path=module, create_app=None).load_app().make_shell_context()); print(&quot;\nFlask App: %s&quot; % app.import_name); break&#10;    except NoAppException: pass" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;lanovenkyi-web&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:lanovenkyi-web/PythonAdvancedProject.git&quot;,
+    &quot;accountId&quot;: &quot;48fe500c-cb7b-4bb1-9af2-3a3d0ac6f9d5&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="397yrun76MRNLw58vwMY0LFyMV7" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -42,18 +63,31 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.HW_1.1.executor": "Run",
     "Python.HW_1.2.executor": "Run",
+    "Python.HW_2.executor": "Run",
+    "Python.first_connection.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/Mein Computer/ICH_010825_LSV/PythonAdvancedProject",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Mein Computer\PycharmProjects\PythonAdvancedProject\My_HW\HW_1" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Mein Computer\ICH_010825_LSV\PythonAdvancedProject\My_CW\CW_1" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -70,14 +104,36 @@
       <option name="presentableId" value="Default" />
       <updated>1770061605301</updated>
       <workItem from="1770061606360" duration="7237000" />
+      <workItem from="1770069526691" duration="1331000" />
+      <workItem from="1770124607846" duration="400000" />
+      <workItem from="1770191864982" duration="3085000" />
+      <workItem from="1770367395592" duration="1210000" />
+      <workItem from="1770373848871" duration="36000" />
+      <workItem from="1770569778171" duration="8007000" />
+      <workItem from="1770624163808" duration="9405000" />
     </task>
+    <task id="LOCAL-00001" summary="HomeWork_1">
+      <option name="closed" value="true" />
+      <created>1770069627198</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1770069627198</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="HomeWork_1" />
+    <option name="LAST_COMMIT_MESSAGE" value="HomeWork_1" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/PythonAdvancedProject$HW_2.coverage" NAME="HW_2 Coverage Results" MODIFIED="1770583088108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/My_HW/HW_2" />
     <SUITE FILE_PATH="coverage/PythonAdvancedProject$HW_1_1.coverage" NAME="HW_1.1 Coverage Results" MODIFIED="1770062410962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/My_HW/HW_1" />
-    <SUITE FILE_PATH="coverage/PythonAdvancedProject$HW_1_2.coverage" NAME="HW_1.2 Coverage Results" MODIFIED="1770069244650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/My_HW/HW_1" />
+    <SUITE FILE_PATH="coverage/PythonAdvancedProject$first_connection.coverage" NAME="first_connection Coverage Results" MODIFIED="1770634248569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/My_CW/SQLAlchemy_3" />
+    <SUITE FILE_PATH="coverage/PythonAdvancedProject$HW_1_2.coverage" NAME="HW_1.2 Coverage Results" MODIFIED="1770196651831" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/My_HW/HW_1" />
   </component>
 </project>
