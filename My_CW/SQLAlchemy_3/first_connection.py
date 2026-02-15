@@ -59,7 +59,7 @@ class User(Base):
         Boolean,
         default=True
     )
-Base.metadata
+Base.metadata.create_all(engine)
 
 Base = sessionmaker(
     bind=engine,
