@@ -71,9 +71,17 @@ class Product(Base):
         "Category", back_populates="products"
     )
 
+
 class Question(Base):
     __tablename__ = "questions"
 
+    text: Mapped[str] = mapped_column(
+        String(500), nullable=False
+    )
+
+    answer: Mapped[str] = mapped_column(
+        String(1000), nullable=False
+    )
 
     category_id: Mapped[int] = mapped_column(
         BigInteger,
